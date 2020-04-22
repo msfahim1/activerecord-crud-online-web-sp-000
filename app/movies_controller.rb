@@ -46,7 +46,7 @@ end
 
 
 def can_find_the_first_item_from_the_database_using_id
-  Movie.find(1).title
+  Movie.find(1)
 end
 
 def can_find_by_multiple_attributes
